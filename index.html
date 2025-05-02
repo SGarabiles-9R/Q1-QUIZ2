@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scholar Checker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+  <div class="paper">
+    <h2>🌿 School Average Checker</h2>
+    <img src="https://media.tenor.com/pJXRc72Vk3oAAAAi/mushroom-head.gif" alt="Cute Sticker" class="sticker">
+
+
+    <div class="button-container">
+      <button onclick="document.getElementById('toggleText').hidden = !document.getElementById('toggleText').hidden">
+    Click Me!
+      </button>
+    </div>
+
+      <br> <br>
+
+  <p id="toggleText" hidden>Enter the three subject grades when prompted, and the program will calculate and display the average to tell if you passed or failed. ✅</p>
+      
+
+
+    <div class="subj-container">
+
+
+      <div id="content1">
+        <h2>Science</h2>
+        <img src="https://i.imgur.com/fZzGtem.png" alt="" class="sticker">
+        <label>Insert Subject Average</label>
+        <input type="number" id="SUBJ1">
+      </div>
+
+      <div id="content2">
+        <h2>Language</h2>
+        <img src="https://i.imgur.com/kHV8cQd.png" alt="" class="sticker">
+        <label>Insert Subject Average</label>
+        <input type="number" id="SUBJ2">
+      </div>
+
+      <div id="content3">
+        <h2>Math</h2>
+        <img src="https://i.imgur.com/ZrnmJkD.png" alt="" class="sticker">
+        <label>Insert Subject Average</label>
+        <input type="number" id="SUBJ3">
+      </div>
+    </div>
+
+    <br><br><br>
+<div class="button-container">
+  <button class="compute" onclick="strengthEffect()">Compute</button>
+
+  </div>
+</div>
+  <br><br><br>
+
+
+  <!-- Decor -->
+    <div class="app-bar">
+  <div class="app-icons">
+    <div class="icon">
+      <img src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/244336bd17dc1d3e983f09cc58576abc_low_res_AltServer.png" alt="App Icon 1">
+    </div>
+    <div class="icon">
+      <img src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/3b98744469fbd91362c2b233f26459d6_low_res_ChatWise.png" alt="App Icon 2">
+    </div>
+    <div class="icon">
+      <img src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/9111f8e8a2152074f3bbf32fa9566bb0_low_res_VSCode_Monochrome.png" alt="App Icon 3">
+    </div>
+    <div class="icon">
+      <img src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/393d955335de1803a47f7beb5d5d2db0_low_res_Unity_Hub.png" alt="App Icon 4">
+    </div>
+  </div>
+  <div class="credits">
+    <span>Shalanie Garabiles || 9 Ruby</span>
+  </div>
+</div>
+
+</div>
+
+  <script src="main.js"></script>
+</body>
+</html>
